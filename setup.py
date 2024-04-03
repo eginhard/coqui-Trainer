@@ -72,11 +72,13 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
     README = readme_file.read()
 
 setup(
-    name="trainer",
+    name="coqui-tts-trainer",
     version=version,
-    url="https://github.com/coqui-ai/Trainer",
+    url="https://github.com/eginhard/coqui-trainer",
     author="Eren Gölge",
     author_email="egolge@coqui.ai",
+    maintainer="Enno Hermann",
+    maintainer_email="enno.hermann@gmail.com",
     description="General purpose model trainer for PyTorch that is more flexible than it should be, by 🐸Coqui.",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -90,10 +92,10 @@ setup(
         ]
     },
     project_urls={
-        "Documentation": "https://github.com/coqui-ai/Trainer/",
-        "Tracker": "https://github.com/coqui-ai/Trainer/issues",
-        "Repository": "https://github.com/coqui-ai/Trainer",
-        "Discussions": "https://github.com/coqui-ai/Trainer/discussions",
+        "Documentation": "https://github.com/eginhard/coqui-trainer",
+        "Tracker": "https://github.com/eginhard/coqui-trainer/issues",
+        "Repository": "https://github.com/eginhard/coqui-trainer",
+        "Discussions": "https://github.com/eginhard/coqui-trainer/discussions",
     },
     cmdclass={
         "build_py": build_py,
